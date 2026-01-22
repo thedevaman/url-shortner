@@ -30,15 +30,19 @@ composer install
 php artisan key:generate
 
 ### 6.Configure environment variables
+```
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+```
 
 ### 7.Run database migrations
 php artisan migrate
 
 ### 8.Run database seeders
 php artisan db:seed --class=UserSeeder
+## username:superadmin@example.com
+## password:12345678 
 
 ### 8.Install frontend dependencies
 npm install
